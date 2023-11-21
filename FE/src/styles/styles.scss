@@ -1,0 +1,31 @@
+// Write your overrides
+
+// Alignment
+.align-right {
+  text-align: end;
+}
+
+// Width
+.mw-70 {
+  max-inline-size: 70%;
+}
+
+.download-btn {
+  border: solid;
+  border-color: #212121;
+  animation-delay: 300ms;
+  background-color: white;
+  block-size: 150px !important;
+  inline-size: 140px;
+  margin-block: 20px;
+  margin-inline: 20px;
+}
+
+.download-btn:hover {
+  background-color: #ccc;
+}
+
+.required-label::after {
+  color: red;
+  content: "\00a0*";
+}
