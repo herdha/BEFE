@@ -108,7 +108,14 @@ class EmailLoginScreen extends GetWidget<EmailLoginController> {
                               text: "lbl_login".tr,
                               margin: getMargin(top: 25, bottom: 5),
                               padding: ButtonPadding.PaddingAll15,
-                              fontStyle: ButtonFontStyle.GilroyMedium16)
+                              fontStyle: ButtonFontStyle.GilroyMedium16,
+                              onTap: ()=>{
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  new SnackBar(
+                                    content: Text('button is pressed'),
+                                  )
+                                )
+                              },)
                         ])))));
   }
 

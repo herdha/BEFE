@@ -18,33 +18,33 @@ class CustomSearchView extends StatelessWidget {
       this.suffix,
       this.suffixConstraints});
 
-  SearchViewShape? shape;
+  final SearchViewShape? shape;
 
-  SearchViewPadding? padding;
+  final SearchViewPadding? padding;
 
-  SearchViewVariant? variant;
+  final SearchViewVariant? variant;
 
-  SearchViewFontStyle? fontStyle;
+  final SearchViewFontStyle? fontStyle;
 
-  Alignment? alignment;
+  final Alignment? alignment;
 
-  double? width;
+  final double? width;
 
-  EdgeInsetsGeometry? margin;
+  final EdgeInsetsGeometry? margin;
 
-  TextEditingController? controller;
+  final TextEditingController? controller;
 
-  FocusNode? focusNode;
+  final FocusNode? focusNode;
 
-  String? hintText;
+  final String? hintText;
 
-  Widget? prefix;
+  final Widget? prefix;
 
-  BoxConstraints? prefixConstraints;
+  final BoxConstraints? prefixConstraints;
 
-  Widget? suffix;
+  final Widget? suffix;
 
-  BoxConstraints? suffixConstraints;
+  final BoxConstraints? suffixConstraints;
 
   @override
   Widget build(BuildContext context) {

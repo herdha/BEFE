@@ -1,4 +1,4 @@
-import '../controller/search_controller.dart';
+// import '../controller/search_controller.dart';
 import '../models/search_item_model.dart';
 import 'package:afriyandi_jp_s_geofence/core/app_export.dart';
 import 'package:flutter/material.dart';

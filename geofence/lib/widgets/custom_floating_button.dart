@@ -12,21 +12,21 @@ class CustomFloatingButton extends StatelessWidget {
       this.height,
       this.child});
 
-  FloatingButtonShape? shape;
+  final FloatingButtonShape? shape;
 
-  FloatingButtonVariant? variant;
+  final FloatingButtonVariant? variant;
 
-  Alignment? alignment;
+  final Alignment? alignment;
 
-  EdgeInsetsGeometry? margin;
+  final EdgeInsetsGeometry? margin;
 
-  VoidCallback? onTap;
+  final VoidCallback? onTap;
 
-  double? width;
+  final double? width;
 
-  double? height;
+  final double? height;
 
-  Widget? child;
+  final Widget? child;
 
   @override
   Widget build(BuildContext context) {

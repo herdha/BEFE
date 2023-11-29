@@ -16,29 +16,29 @@ class CustomButton extends StatelessWidget {
       this.prefixWidget,
       this.suffixWidget});
 
-  ButtonShape? shape;
+  final ButtonShape? shape;
 
-  ButtonPadding? padding;
+  final ButtonPadding? padding;
 
-  ButtonVariant? variant;
+  final ButtonVariant? variant;
 
-  ButtonFontStyle? fontStyle;
+  final ButtonFontStyle? fontStyle;
 
-  Alignment? alignment;
+  final Alignment? alignment;
 
-  EdgeInsetsGeometry? margin;
+  final EdgeInsetsGeometry? margin;
 
-  VoidCallback? onTap;
+  final VoidCallback? onTap;
 
-  double? width;
+  final double? width;
 
-  double? height;
+  final double? height;
 
-  String? text;
+  final String? text;
 
-  Widget? prefixWidget;
+  final Widget? prefixWidget;
 
-  Widget? suffixWidget;
+  final Widget? suffixWidget;
 
   @override
   Widget build(BuildContext context) {

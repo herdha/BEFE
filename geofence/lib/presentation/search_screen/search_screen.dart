@@ -7,7 +7,7 @@ import 'package:afriyandi_jp_s_geofence/widgets/app_bar/custom_app_bar.dart';
 import 'package:afriyandi_jp_s_geofence/widgets/custom_search_view.dart';
 import 'package:flutter/material.dart';
 
-class SearchScreen extends GetWidget<SearchController> {
+class SearchScreen extends GetWidget<SearchControllers> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
