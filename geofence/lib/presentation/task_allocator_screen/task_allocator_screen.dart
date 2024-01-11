@@ -98,6 +98,7 @@ class TaskAllocatorScreen extends GetWidget<TaskAllocatorController> {
 
   onTapImgFile() async {
     await PermissionManager.askForPermission(Permission.storage);
+    // ignore: unused_local_variable
     List<String?>? fileList = [];
     FileManager().filePickerMethod(1000 * 1000, ['pdf', 'doc'],
         getFiles: (value) {

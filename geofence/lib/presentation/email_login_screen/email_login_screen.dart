@@ -110,11 +110,12 @@ class EmailLoginScreen extends GetWidget<EmailLoginController> {
                               padding: ButtonPadding.PaddingAll15,
                               fontStyle: ButtonFontStyle.GilroyMedium16,
                               onTap: ()=>{
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  new SnackBar(
-                                    content: Text('button is pressed'),
-                                  )
-                                )
+                                Get.offNamed(AppRoutes.appNavigationScreen)
+                                // ScaffoldMessenger.of(context).showSnackBar(
+                                //   new SnackBar(
+                                //     content: Text('button is pressed'),
+                                //   )
+                                // )
                               },)
                         ])))));
   }
